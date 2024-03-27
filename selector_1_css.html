@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector 1</title>
+    <style>
+        *{
+            color: aqua;
+            background-color: aliceblue;
+        }
+        .judul {
+            color: black;
+        }
+        p.success {
+            color: green;
+        }
+        p#danger {
+            color: red;
+        }
+        .font-xs {
+            color: blue;
+            font-size: 24px;
+        }
+        /*.judul {
+            font-weight: bold;
+            font-size: 32px;
+            color: blueviolet;
+        }*/
+        a[href] {
+            color: aquamarine;
+            font-size: 50px;
+        }
+        h1,h2,h3 {
+            text-transform: uppercase;
+        }
+        span#penting {
+            color: red;
+            font-weight: bold;
+        }
+        p.judul {
+            color: red;
+        }
+        div p{
+            font-size: x-large;
+        }
+        div > p{
+            color: cornflowerblue;
+        }
+        /*div section p{
+            font-size: small;
+        }*/
+
+    </style>
+</head>
+<body>
+    <h1 class="font-xs">hello world</h1>
+    <p>This is paragraf one</p>
+    <hr>
+    <h2 class="judul">Ini adalah judul</h2>
+    <p>This is second paragraf</p>
+    <hr>
+    <h3>This is heading tree</h3>
+    <p id="danger">login gagal</p>
+    <hr>
+    <h3>This is heading two</h3>
+    <p class="success">login anda berhasil</p>
+    <hr>
+    <a>Link not activate</a>
+    <a href="https://surabaya.telkomuniversity.ac.id/" target="_blank">Link activate</a>
+    <hr>
+    <p class="judul">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <span id="penting">Pemrorgraman Web</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+    <hr>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Magni accusamus voluptas voluptatibus nisi aspernatur, ipsum quos nihil enim doloribus nulla. 
+            Debitis voluptate, ipsam culpa eaque animi possimus. Corrupti, ratione quae?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Atque officiis molestiae sint deleniti consequuntur labore voluptatum amet hic, 
+            blanditiis facere eos quo totam dolor dolorem reprehenderit, nisi praesentium eveniet nobis!</p>
+
+        <section>
+            <p>inside bvuasbuvbuabsvuhbuabvubi</p>
+            <p>inside dsbauibddivbuiebaiibviubai</p>
+        </section>
+    </div>
+</body>
+</html>
